@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'manual-connection-acr'
+  dockerRegistryServiceConnection: 'connection-from-managed-identity'
   imageRepository: 'myimage'
   containerRegistry: 'argdocker.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
