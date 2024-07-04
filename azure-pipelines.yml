@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   azureSubscription:  my-azure-resource-manager
-  appName: my-web-app-for-containers
+  appName: use-manual-plan
   containerRegistry: argdocker.azurecr.io
   dockerRegistryServiceConnection: 'ab25c0fd-4069-46ac-9761-3200d21318ea'
   imageRepository: 'my-images'
