@@ -36,7 +36,7 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: 'my-service-connection-automatic'
+        containerRegistry: 'my-docker-registry-connection'
         tags: |
           $(tag)
     - task: AzureWebAppContainer@1
